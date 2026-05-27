@@ -45,9 +45,20 @@ The main objective is to evaluate models under a leakage-free protocol and to qu
 
 ---
 
-# 2. Dataset Structure
+# 2. Dataset 
 
-Expected dataset structure:
+The dataset used in this project is obtained from Kaggle:
+
+[Monkeypox Skin Image Dataset](https://www.kaggle.com/datasets/dipuiucse/monkeypoxskinimagedataset)
+
+It contains skin lesion images of patients with Monkeypox and other conditions, organized into the following classes:
+
+* `Chickenpox`
+* `Measles`
+* `Monkeypox`
+* `Normal`
+
+Dtaset structure:
 
 ```text
 data/
